@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Tableaux_Ex_1
+namespace Tableau_Ex_2
 {
-    //Grâce à une boucle «while» et à l’aide d’une collection, 
-    //calculez les nombres premiers inférieur à un nombre entier entré au clavier.
     class Program
     {
         static void Main(string[] args)
