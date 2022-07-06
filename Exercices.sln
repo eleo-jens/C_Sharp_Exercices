@@ -47,7 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revision_Loop_Ex_4", "Revis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revision_Loop_Ex_5", "Revision_Loop_Ex_5\Revision_Loop_Ex_5.csproj", "{1381F564-D743-4949-8816-F46B17787959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structure_Ex_1", "Structure_Ex_1\Structure_Ex_1.csproj", "{76968F98-EFAE-4AD3-B455-A595E7AD9E15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structure_Ex_1", "Structure_Ex_1\Structure_Ex_1.csproj", "{76968F98-EFAE-4AD3-B455-A595E7AD9E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methode_Ex_1", "Methode_Ex_1\Methode_Ex_1.csproj", "{9EEA17BB-4EA7-47CD-A657-E8D9D38888C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methode_Ex_2", "Methode_Ex_2\Methode_Ex_2.csproj", "{76A588A9-586F-4C15-BD9A-D87B87929244}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +151,14 @@ Global
 		{76968F98-EFAE-4AD3-B455-A595E7AD9E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76968F98-EFAE-4AD3-B455-A595E7AD9E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76968F98-EFAE-4AD3-B455-A595E7AD9E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEA17BB-4EA7-47CD-A657-E8D9D38888C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEA17BB-4EA7-47CD-A657-E8D9D38888C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEA17BB-4EA7-47CD-A657-E8D9D38888C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEA17BB-4EA7-47CD-A657-E8D9D38888C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A588A9-586F-4C15-BD9A-D87B87929244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A588A9-586F-4C15-BD9A-D87B87929244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A588A9-586F-4C15-BD9A-D87B87929244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A588A9-586F-4C15-BD9A-D87B87929244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
