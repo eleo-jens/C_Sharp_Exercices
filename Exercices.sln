@@ -55,6 +55,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methode_Ex_2", "Methode_Ex_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grand_Prix", "Grand_Prix\Grand_Prix.csproj", "{F51A2E62-07EE-4AA2-8D0D-2981CB20C54A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum_Ex_1", "Enum_Ex_1\Enum_Ex_1.csproj", "{C1531B7D-9C55-44BA-990B-F52D753645CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{F51A2E62-07EE-4AA2-8D0D-2981CB20C54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F51A2E62-07EE-4AA2-8D0D-2981CB20C54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F51A2E62-07EE-4AA2-8D0D-2981CB20C54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1531B7D-9C55-44BA-990B-F52D753645CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1531B7D-9C55-44BA-990B-F52D753645CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1531B7D-9C55-44BA-990B-F52D753645CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1531B7D-9C55-44BA-990B-F52D753645CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
