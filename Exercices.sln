@@ -49,9 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revision_Loop_Ex_5", "Revis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structure_Ex_1", "Structure_Ex_1\Structure_Ex_1.csproj", "{76968F98-EFAE-4AD3-B455-A595E7AD9E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methode_Ex_1", "Methode_Ex_1\Methode_Ex_1.csproj", "{9EEA17BB-4EA7-47CD-A657-E8D9D38888C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methode_Ex_1", "Methode_Ex_1\Methode_Ex_1.csproj", "{9EEA17BB-4EA7-47CD-A657-E8D9D38888C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methode_Ex_2", "Methode_Ex_2\Methode_Ex_2.csproj", "{76A588A9-586F-4C15-BD9A-D87B87929244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methode_Ex_2", "Methode_Ex_2\Methode_Ex_2.csproj", "{76A588A9-586F-4C15-BD9A-D87B87929244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grand_Prix", "Grand_Prix\Grand_Prix.csproj", "{F51A2E62-07EE-4AA2-8D0D-2981CB20C54A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{76A588A9-586F-4C15-BD9A-D87B87929244}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76A588A9-586F-4C15-BD9A-D87B87929244}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76A588A9-586F-4C15-BD9A-D87B87929244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51A2E62-07EE-4AA2-8D0D-2981CB20C54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51A2E62-07EE-4AA2-8D0D-2981CB20C54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51A2E62-07EE-4AA2-8D0D-2981CB20C54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51A2E62-07EE-4AA2-8D0D-2981CB20C54A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

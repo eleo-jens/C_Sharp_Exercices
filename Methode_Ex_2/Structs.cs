@@ -13,21 +13,23 @@ namespace Methode_Ex_2
         public bool SolveEquation(out Nullable<double> x1, out Nullable<double> x2)
         {
             double delta = (B * B) - (4 * A * C);
-            if (delta >= 0)
-            {
-                if (delta == 0) x2 = x1 = -B / (2 * A);
-                else
-                {
-                    x1 = (-B - Math.Sqrt(delta)) / (2 * A);
-                    x2 = (-B + Math.Sqrt(delta)) / (2 * A);
-                }
-                return true;
-            }
+            x2 = x1 = null;
+            if (delta < 0) return false;
+            if (delta == 0) x2 = x1 = -B / (2 * A);
             else
             {
-                x2 = x1 = null;
-                return false;
+                x1 = (-B - Math.Sqrt(delta)) / (2 * A);
+                x2 = (-B + Math.Sqrt(delta)) / (2 * A);
             }
+            return true;
+
+            // Version très raccourcie car quand delta vaut 0 le racine carrée de delta vaut 0 donc les deux formules en bas sont suffisantes
+            //double delta = (B * B) - (4 * A * C);
+            //x2 = x1 = null;
+            //if (delta < 0) return false;
+            //if (delta == 0) x2 = x1 = -B / (2 * A);
+            //x1 = (-B - Math.Sqrt(delta)) / (2 * A);
+            //return true;
 
             // Version de base non raccourcie
             //double delta = (B * B) - (4 * A * C);
