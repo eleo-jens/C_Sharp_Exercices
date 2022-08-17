@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Grand_Prix
 {
@@ -9,15 +10,14 @@ namespace Grand_Prix
             Course grand_prix;
             grand_prix.nb_participant = 3;
             grand_prix.nb_tour = 5;
-            grand_prix.distance = 3629;
+            grand_prix.distance = 3.629;
 
-            Chrono_voiture tour = new Chrono_voiture();
+            Chrono_voiture voiture1 = new Chrono_voiture();
+            Chrono_voiture voiture2 = new Chrono_voiture();
+            Chrono_voiture voiture3 = new Chrono_voiture();
 
-            Random rnd = new Random();
-            int vitesse = rnd.Next(tour.vitesse_min, tour.vitesse_max)
-
-
-
+            function tour_voiture;
+            tour_voiture.lancerCourse(grand_prix, voiture1, voiture2, voiture3);
         }
     }
 }
