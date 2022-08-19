@@ -13,11 +13,14 @@ namespace Grand_Prix
             grand_prix.distance = 3.629;
 
             Chrono_voiture voiture1 = new Chrono_voiture();
+            voiture1.piloteName = "Toto";
             Chrono_voiture voiture2 = new Chrono_voiture();
+            voiture2.piloteName = "Titi";
             Chrono_voiture voiture3 = new Chrono_voiture();
+            voiture3.piloteName = "Tata";
 
             function tour_voiture;
-            tour_voiture.lancerCourse(grand_prix, voiture1, voiture2, voiture3);
+            tour_voiture.CreerCourse(grand_prix, voiture1, voiture2, voiture3);
         }
     }
 }
