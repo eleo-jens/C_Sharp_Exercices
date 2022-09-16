@@ -57,7 +57,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grand_Prix", "Grand_Prix\Gr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum_Ex_1", "Enum_Ex_1\Enum_Ex_1.csproj", "{C1531B7D-9C55-44BA-990B-F52D753645CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Javanais", "Javanais\Javanais.csproj", "{509662B0-5FBD-4377-A614-C6BD36094DE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Javanais", "Javanais\Javanais.csproj", "{509662B0-5FBD-4377-A614-C6BD36094DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OO-Delegate", "OO-Delegate\OO-Delegate.csproj", "{32D83669-E228-4D31-AC17-C574357BFA97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{509662B0-5FBD-4377-A614-C6BD36094DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{509662B0-5FBD-4377-A614-C6BD36094DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{509662B0-5FBD-4377-A614-C6BD36094DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D83669-E228-4D31-AC17-C574357BFA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D83669-E228-4D31-AC17-C574357BFA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D83669-E228-4D31-AC17-C574357BFA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D83669-E228-4D31-AC17-C574357BFA97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
